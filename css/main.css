@@ -11,6 +11,12 @@ body {
 	font-family: 'Merriweather', serif;
 }
 
+@media (max-width: 475px) {
+  body {
+    font-size: 80%;
+  }
+}
+
 h1,
 h2,
 h3,
@@ -40,6 +46,12 @@ h1 {
 .necho-word {
 	font-size: 4rem;
 	text-align: center;
+}
+
+@media (max-width: 475px) {
+  .necho-word {
+    font-size: 2.5rem;
+  }
 }
 
 .saulomon-text {
