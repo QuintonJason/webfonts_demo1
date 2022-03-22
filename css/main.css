@@ -11,6 +11,16 @@ body {
 	font-family: 'Merriweather', serif;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* font-family: 'Raleway', sans-serif; */
+	font-weight: 700;
+}
+
 .privateer {
 	font-family: "Privateer", serif;
 }
@@ -25,4 +35,66 @@ h1 {
 
 .raleway {
 	font-family: 'Raleway', sans-serif;
+}
+
+.necho-word {
+	font-size: 4rem;
+	text-align: center;
+}
+
+.saulomon-text {
+	text-align: justify;
+}
+
+.saulomon-text::first-letter {
+	font-size: 5rem;
+	text-shadow: 2px 2px 2px purple;
+}
+
+.ashley-text {
+	font-family: 'Raleway', sans-serif;
+	color: red;
+	background-color: pink;
+}
+
+.mary-text {
+	font-size: 2.5rem;
+}
+
+.sierra-heart {
+	position: relative;
+	width: 100px;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sierra-heart:before,
+.sierra-heart:after {
+	position: absolute;
+	content: "";
+	left: 50px;
+	top: 0;
+	width: 50px;
+	height: 80px;
+	background: red;
+	border-radius: 50px 50px 0 0;
+	transform: rotate(-45deg);
+	transform-origin: 0 100%;
+}
+.sierra-heart:after {
+	left: 0;
+	transform: rotate(45deg);
+	transform-origin: 100% 100%;
+}
+
+.jade-word-w {
+	display: inline-block;
+	transform: scale(1, 3);
+	transform-origin: 0% 70%;
+}
+
+.maddy-div {
+	max-width: 800px;
+	margin-left: auto;
+	margin-right: auto;
 }
