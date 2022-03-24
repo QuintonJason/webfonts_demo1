@@ -46,6 +46,10 @@ h1 {
 .necho-word {
 	font-size: 4rem;
 	text-align: center;
+	background-image: url(../img/my-bg-image.jpeg);
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 60px;
 }
 
 @media (max-width: 475px) {
